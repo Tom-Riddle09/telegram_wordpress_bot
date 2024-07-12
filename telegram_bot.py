@@ -23,13 +23,13 @@ def save_log(content):
 
 try: #creating a try loop to extract all errors and log it.
 # Set up your Telegram bot and WordPress credentials
-    telegram_bot_token = '6477432118:AAG2y8MokpGPwB1NhCmvtS5Er43zSjfapyg'
-    wordpress_endpoint = 'https://burningsatan.com/xmlrpc.php' #endpoint for xmlrpc lib
-    media_endpoint = 'https://burningsatan.com/wp-json/wp/v2/media' #endpoint for Rest API
-    wordpress_username = 'info.manteye@gmail.com'
-    wordpress_password = 'DoctorDoctor123$$$&&&'
-    application_password = '0Gyv asZZ WfCo owwN vfKl 0DyP'
-    parent_page_id = 3702  # Replace with the ID of your specific parent page
+    telegram_bot_token = 'YOUR TELEGRAM BOT TOKEN'
+    wordpress_endpoint = 'https:/YOURWEBSITE.COM/xmlrpc.php' #endpoint for xmlrpc lib
+    media_endpoint = 'https://YOURWEBSITE.COM//wp-json/wp/v2/media' #endpoint for Rest API
+    wordpress_username = 'your username'
+    wordpress_password = 'your password'
+    application_password = 'your application password'
+    parent_page_id = 0000  # Replace with the ID of your specific parent page
     session = requests.Session() #creating a session for REST API
     session.auth = (wordpress_username, application_password) #authenticating using application password
 # Initialize the WordPress client
