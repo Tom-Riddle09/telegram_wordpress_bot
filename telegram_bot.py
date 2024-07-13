@@ -23,7 +23,7 @@ def save_log(content):
 
 try: #creating a try loop to extract all errors and log it.
 # Set up your Telegram bot and WordPress credentials
-    telegram_bot_token = 'YOUR TELEGRAM BOT TOKEN'
+    telegram_bot_token = 'YOUR TELEGRAM's BOT TOKEN'
     wordpress_endpoint = 'https:/YOURWEBSITE.COM/xmlrpc.php' #endpoint for xmlrpc lib
     media_endpoint = 'https://YOURWEBSITE.COM//wp-json/wp/v2/media' #endpoint for Rest API
     wordpress_username = 'your username'
