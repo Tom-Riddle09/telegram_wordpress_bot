@@ -35,6 +35,3 @@ returns file url.
 uploaded file , returns post id.
 • “create_vd_thmbnail”: usd to create video thumbnail for video files.
 
-
-Thank You for choosing Adarsh’s services. Been a delightful experience engaging in 
-business with you.
